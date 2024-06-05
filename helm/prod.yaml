@@ -2,3 +2,6 @@ component: user
 port: 8080
 service_type: ClusterIP
 PARAMETERS: "user.prod.REDIS_HOST,REDIS_HOST user.prod.MONGO_URL,MONGO_URL user.prod.DOCUMENTDB,DOCUMENTDB"
+schema:
+  enabled: true
+  DB_TYPE: docdb
